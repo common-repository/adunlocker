@@ -1,0 +1,97 @@
+/**
+ * AdUnlocker
+ * Powerful browser adblock blocker.
+ *
+ * @encoding        UTF-8
+ * @copyright       (C) 2021 PixPal ( https://pixpal.net/ ). All rights reserved.
+ * @support         help@pixpal.net
+ **/
+.pp-tab-name-activation h3 {
+  margin-bottom: 30px !important;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2em; }
+
+.pp-tab-name-activation .pp-activation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  .pp-tab-name-activation .pp-activation .pp-activation-form {
+    width: 100%;
+    position: relative;
+    padding-bottom: 30px; }
+    .pp-tab-name-activation .pp-activation .pp-activation-form .ppc-input-width {
+      max-width: 100%;
+      height: 64px; }
+      .pp-tab-name-activation .pp-activation .pp-activation-form .ppc-input-width input {
+        font-size: 18px; }
+      .pp-tab-name-activation .pp-activation .pp-activation-form .ppc-input-width label.ppc-floating-label--float-above {
+        margin-top: -12px;
+        background: linear-gradient(to bottom, white, rgba(255, 255, 255, 0)); }
+  .pp-tab-name-activation .pp-activation .pp-activation-faq {
+    width: calc( 60% - 30px); }
+    .pp-tab-name-activation .pp-activation .pp-activation-faq h3 {
+      font-size: 1.2em !important; }
+  .pp-tab-name-activation .pp-activation .pp-subscribe-form {
+    width: 40%; }
+    .pp-tab-name-activation .pp-activation .pp-subscribe-form p {
+      font-size: 14px;
+      color: rgba(10, 33, 56, 0.75);
+      margin-bottom: 1.5rem; }
+      .pp-tab-name-activation .pp-activation .pp-subscribe-form p.pp-subscribe-form-message-error, .pp-tab-name-activation .pp-activation .pp-subscribe-form p.pp-subscribe-form-message-success {
+        padding: 16px;
+        border-radius: 8px;
+        transition: .1s; }
+      .pp-tab-name-activation .pp-activation .pp-subscribe-form p.pp-subscribe-form-message-error {
+        border: 1px solid rgba(255, 69, 0, 0.5);
+        color: orangered; }
+      .pp-tab-name-activation .pp-activation .pp-subscribe-form p.pp-subscribe-form-message-success {
+        border: 1px solid rgba(73, 167, 68, 0.5);
+        color: #49a744; }
+    .pp-tab-name-activation .pp-activation .pp-subscribe-form .ppc-input-width {
+      max-width: 100%;
+      height: 48px; }
+    .pp-tab-name-activation .pp-activation .pp-subscribe-form .ppc-text-field {
+      margin-bottom: 1.25em;
+      height: 48px;
+      width: 100%; }
+    .pp-tab-name-activation .pp-activation .pp-subscribe-form .ppc-ripple-upgraded:hover::before {
+      opacity: 0; }
+
+#pp-subscribe {
+  height: 40px;
+  background: rgba(2, 116, 230, 0.07);
+  box-shadow: none;
+  font-size: 14px;
+  font-weight: 400;
+  color: #e83a30;
+  border: 1px solid rgba(2, 116, 230, 0.05); }
+  #pp-subscribe:hover {
+    text-decoration: none;
+    background: rgba(2, 116, 230, 0.1);
+    color: #e83a30;
+    box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.05), 0 4px 5px 0 rgba(0, 0, 0, 0.03), 0 1px 10px 0 rgba(0, 0, 0, 0.03); }
+
+/* Responsiveness */
+@media screen and (max-width: 1080px) {
+  .pp-tab-name-activation .pp-activation {
+    flex-direction: column; }
+    .pp-tab-name-activation .pp-activation .pp-activation-form,
+    .pp-tab-name-activation .pp-activation .pp-activation-faq,
+    .pp-tab-name-activation .pp-activation .pp-subscribe-form,
+    .pp-tab-name-activation .pp-activation .ppc-input-width {
+      width: 100%;
+      max-width: 100% !important; } }
+
+@media screen and (max-width: 782px) {
+  .pp-tab-name-activation .pp-activation .pp-activation-faq,
+  .pp-tab-name-activation .pp-activation .pp-activation-form,
+  .pp-tab-name-activation .pp-activation .pp-subscribe-form {
+    width: calc( 100% - 60px); } }
+
+.pp-tab-name-assignments .chosen-container-multi .chosen-choices li.search-choice {
+  color: white; }
+
+.ppc-filed-divider {
+  margin-left: -210px;
+  margin-top: 0;
+  margin-bottom: 0; }

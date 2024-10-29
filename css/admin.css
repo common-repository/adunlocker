@@ -1,0 +1,11 @@
+/**
+ * AdUnlocker
+ * Powerful browser adblock blocker.
+ *
+ * @encoding        UTF-8
+ * @copyright       (C) 2021 PixPal ( https://pixpal.net/ ). All rights reserved.
+ * @support         help@pixpal.net
+ **/
+.pp-readabler-not-activated .pp-tab-name-general table tr:first-of-type .ppc-list .ppc-list-item:nth-of-type(3) {
+  opacity: .25;
+  filter: grayscale(1); }
